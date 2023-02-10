@@ -1,9 +1,39 @@
 :root{
-    font-family: 'Roboto', sans-serif;
     font-size: 10px;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.backgroundMain{
+    padding: 3.5rem;
+    width: 100%;
+    height: 100vh;
+    background: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg") no-repeat fixed center center/cover;
+}
+.backgroundSection{
+    padding: 2rem;
+    max-width: 60rem;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 1rem;
+    color: aliceblue;
+}
+.titleSection{
+    font-size: 5rem;
+}
+.textSection{
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.buttonSection{
+    width: 23rem;
+    height: 5rem;
+    border: none;
+    background: #DB3030;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
 }
